@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #f4f4f4; 
+    background: #f5f5dc; 
 }
 
 #container{
@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background: #000;
+    background: #4d0a24;
     color:#fff;
     padding: 20px;
     display: flex;
@@ -40,4 +40,27 @@ header nav ul li a{
 
 header nav ul li a:hover{
     text-decoration: underline 5px purple; 
+}
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap:20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto{
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-image: linear-gradient(#4A044A,#6a1d49,#881843);
+    color:#fff;
+    border-radius: 30px;
 }
